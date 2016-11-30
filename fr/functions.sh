@@ -7,7 +7,6 @@
 # pg for PluGin
 # XX can be a two letters code for your plugin, ex: ww for Weather Wunderground
 
-<<<<<<< HEAD
 jv_pg_cm_time() {
 
 destination=$(echo $1 | tr -d ' ')
@@ -37,19 +36,4 @@ done <<< "$(echo "$chezqui" | jq -r '.devices[].nomdestination')"
 echo "Oups pas de destination trouvé"
 
 }
-=======
-jv_pg_cm_time () {
-
-
-local CM_QUERY="https://developer.citymapper.com/api/1/traveltime/?startcoord=$FROM&endcoord=$1&time=$DATE&time_type=arrival&key=$APIKEYCM"
-local CM_TIME=$(curl -s "$CM_QUERY" | jq -r '.travel_time_minutes')
-if [ "$CM_TIME" = "null" ]
-then
-echo "Je n'ai rien trouvé"
-else
-echo "$CM_TIME"
-fi
-}
-
->>>>>>> 4d004a76ce4ef4f04ab43d7e0f2c3cbac15a6f29
 
