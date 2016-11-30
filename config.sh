@@ -1,6 +1,7 @@
 #API KEY citymapper  : https://citymapper.3scale.net
 APIKEYCM=
 
+<<<<<<< HEAD
 #coordonnees du point de depart LATITUDE,LONGITUDE avec "Pont Notre Dame, 75004 Paris, France"
 #voir http://www.gpsfrance.net/adresse-vers-coordonnees-gps
 FROM=48.856145,2.348601
@@ -13,6 +14,15 @@ chezqui='{ "devices":[
 ]}'
 
 #Autre
+=======
+#Locations
+#Latitude,longitude
+#http://www.gpsfrance.net/adresse-vers-coordonnees-gps
+FROM=
+TRAVAIL=
+
+#date iso
+>>>>>>> 4d004a76ce4ef4f04ab43d7e0f2c3cbac15a6f29
 DATE="$(date +"%Y-%m-%dT%H:%M:%S%z")"
 
 
