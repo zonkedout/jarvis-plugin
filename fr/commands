@@ -1,0 +1,1 @@
+*TEMP*TRAJET*VERS (*)==say "Je cogite" && say "$(jv_pg_cm_time "(1)")" 
