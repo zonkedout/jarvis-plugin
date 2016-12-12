@@ -2,10 +2,11 @@
 Transit Travel Time between two locations
 
 ## Usage
-FR
-You: temps de trajet vers XXXXX
+```
+You: temps de trajet vers le travail
 Jarvis: Je cogite
-Jarvis: XXXXXXXXXXX
+Jarvis: 15 minutes pour aller au taf
+```
 
 ## Author
-[Matt]
+[Matt](https://github.com/zonkedout)
